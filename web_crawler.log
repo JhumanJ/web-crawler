@@ -1,0 +1,128 @@
+2017-11-26 17:13:10,005 - Starting to crawl http://unlockme.nahum.net/ with 20 threads
+2017-11-26 17:13:10,007 - Thread with id 0 starts crawling /
+2017-11-26 17:13:10,169 - Thread with id 0 starts crawling 
+2017-11-26 17:13:10,169 - Thread with id 1 starts crawling julien@nahum.net
+2017-11-26 17:13:10,750 - Error - Thread with id 1 while crawling http://unlockme.nahum.net/julien@nahum.net: HTTP Error 404: Not Found
+2017-11-26 17:15:29,072 - Starting to crawl http://unlockme.nahum.net/ with 20 threads
+2017-11-26 17:15:29,074 - Thread with id 0 starts crawling /
+2017-11-26 17:15:29,215 - Thread with id 0 starts crawling 
+2017-11-26 17:15:29,215 - Thread with id 1 starts crawling julien@nahum.net
+2017-11-26 17:15:29,456 - Error - Thread with id 1 while crawling http://unlockme.nahum.net/julien@nahum.net: HTTP Error 404: Not Found
+2017-11-26 17:15:42,333 - Starting to crawl http://unlockme.nahum.net/ with 20 threads
+2017-11-26 17:15:42,336 - Thread with id 0 starts crawling /
+2017-11-26 17:15:42,479 - Thread with id 0 starts crawling 
+2017-11-26 17:15:42,479 - Thread with id 1 starts crawling julien@nahum.net
+2017-11-26 17:15:42,808 - Error - Thread with id 1 while crawling http://unlockme.nahum.net/julien@nahum.net: HTTP Error 404: Not Found
+2017-11-26 17:15:42,809 - Error - Thread with id 1 while crawling http://unlockme.nahum.net/julien@nahum.net
+2017-11-26 17:15:42,810 - Done crawling http://unlockme.nahum.net/ - 2 pages were parsed in 0.47590088844299316
+2017-11-26 17:52:31,467 - Starting to crawl https://crisp.chat/ with 20 threads
+2017-11-26 17:52:31,470 - Thread with id 0 starts crawling /
+2017-11-26 17:52:31,845 - Thread with id 0 starts crawling 
+2017-11-26 17:52:31,845 - Thread with id 2 starts crawling /en/integrations/
+2017-11-26 17:52:31,846 - Thread with id 4 starts crawling /blog/
+2017-11-26 17:52:31,846 - Thread with id 6 starts crawling /es/
+2017-11-26 17:52:31,846 - Thread with id 8 starts crawling /en/apps/
+2017-11-26 17:52:31,847 - Thread with id 10 starts crawling /en/about/
+2017-11-26 17:52:31,847 - Thread with id 12 starts crawling /en/livechat/
+2017-11-26 17:52:31,847 - Thread with id 14 starts crawling /en/testimonials/
+2017-11-26 17:52:31,848 - Thread with id 16 starts crawling /en/contact/
+2017-11-26 17:52:31,857 - Thread with id 3 starts crawling /pt/
+2017-11-26 17:52:31,857 - Thread with id 11 starts crawling /en/pricing/
+2017-11-26 17:52:31,887 - Thread with id 1 starts crawling /fr/
+2017-11-26 17:52:31,887 - Thread with id 15 starts crawling /en/
+2017-11-26 17:52:31,887 - Thread with id 17 starts crawling /en/terms/
+2017-11-26 17:52:31,897 - Thread with id 13 starts crawling /en/privacy/
+2017-11-26 17:52:31,897 - Thread with id 7 starts crawling /en/insights/
+2017-11-26 17:52:31,906 - Thread with id 5 starts crawling /en/campaigns/
+2017-11-26 17:52:32,105 - Thread with id 6 starts crawling /es/integrations/
+2017-11-26 17:52:32,110 - Thread with id 10 starts crawling /es/contact/
+2017-11-26 17:52:32,110 - Thread with id 18 starts crawling /es/testimonials/
+2017-11-26 17:52:32,110 - Thread with id 19 starts crawling /es/livechat/
+2017-11-26 17:52:32,110 - Thread with id 9 starts crawling /es/terms/
+2017-11-26 17:52:32,179 - Thread with id 16 starts crawling /es/campaigns/
+2017-11-26 17:52:32,218 - Thread with id 1 starts crawling /es/privacy/
+2017-11-26 17:52:32,235 - Thread with id 15 starts crawling /es/insights/
+2017-11-26 17:52:32,248 - Thread with id 12 starts crawling /es/apps/
+2017-11-26 17:52:32,284 - Thread with id 8 starts crawling /es/about/
+2017-11-26 17:52:32,305 - Thread with id 14 starts crawling /es/pricing/
+2017-11-26 17:52:32,349 - Thread with id 4 starts crawling /fr/about/
+2017-11-26 17:52:32,355 - Thread with id 17 starts crawling /pt/about/
+2017-11-26 17:52:32,369 - Thread with id 2 starts crawling /pt/contact/
+2017-11-26 17:52:32,415 - Thread with id 7 starts crawling /fr/contact/
+2017-11-26 17:52:32,428 - Thread with id 3 starts crawling /fr/testimonials/
+2017-11-26 17:52:32,434 - Thread with id 13 starts crawling /fr/campaigns/
+2017-11-26 17:52:32,481 - Thread with id 11 starts crawling /fr/livechat/
+2017-11-26 17:52:32,499 - Thread with id 6 starts crawling /fr/terms/
+2017-11-26 17:52:32,514 - Thread with id 5 starts crawling /fr/integrations/
+2017-11-26 17:52:32,525 - Thread with id 10 starts crawling /fr/pricing/
+2017-11-26 17:52:32,571 - Thread with id 9 starts crawling /fr/privacy/
+2017-11-26 17:52:32,577 - Thread with id 0 starts crawling /fr/insights/
+2017-11-26 17:52:32,610 - Thread with id 12 starts crawling /fr/apps/
+2017-11-26 17:52:32,650 - Thread with id 16 starts crawling /pt/livechat/
+2017-11-26 17:52:32,659 - Thread with id 1 starts crawling /pt/apps/
+2017-11-26 17:52:32,662 - Thread with id 18 starts crawling /pt/testimonials/
+2017-11-26 17:52:32,690 - Thread with id 19 starts crawling /blog/tag/news/
+2017-11-26 17:52:32,700 - Thread with id 15 starts crawling /blog/tag/customer-support/
+2017-11-26 17:52:32,735 - Thread with id 7 starts crawling /blog/tag/interview/
+2017-11-26 17:52:32,762 - Thread with id 2 starts crawling /blog/how-to-compete-with-giants-with-100/
+2017-11-26 17:52:32,767 - Thread with id 8 starts crawling /blog/tag/growth-hacking/
+2017-11-26 17:52:32,812 - Thread with id 17 starts crawling /blog/tag/technical/
+2017-11-26 17:52:32,834 - Thread with id 4 starts crawling /blog/tag/bootstrap/
+2017-11-26 17:52:32,884 - Thread with id 12 starts crawling /blog/page/2/
+2017-11-26 17:52:32,898 - Thread with id 13 starts crawling translations@crisp.chat
+2017-11-26 17:52:32,900 - Thread with id 3 starts crawling /blog/open-sourcing-bloom-a-rest-api-caching-middleware/
+2017-11-26 17:52:32,908 - Thread with id 14 starts crawling /blog/author/baptiste/
+2017-11-26 17:52:32,969 - Thread with id 5 starts crawling /blog/author/kevin-william-david/
+2017-11-26 17:52:32,974 - Thread with id 11 starts crawling /blog/tag/open-source/
+2017-11-26 17:52:33,021 - Thread with id 10 starts crawling /blog/author/valerian/
+2017-11-26 17:52:33,037 - Thread with id 9 starts crawling /blog/tag/livechat/
+2017-11-26 17:52:33,048 - Thread with id 6 starts crawling /blog/5-growth-hacks-to-start-a-discussion-with-your-customers/
+2017-11-26 17:52:33,095 - Thread with id 1 starts crawling /blog/tag/project/
+2017-11-26 17:52:33,106 - Thread with id 16 starts crawling /blog/tag/updates/
+2017-11-26 17:52:33,139 - Thread with id 19 starts crawling /blog/increase-your-conversion-and-customer-satisfaction-with-crisp/
+2017-11-26 17:52:33,140 - Thread with id 15 starts crawling /blog/crisp-2-5-is-out/
+2017-11-26 17:52:33,167 - Error - Thread with id 13 while crawling https://crisp.chat/translations@crisp.chat: HTTP Error 404: Not Found
+2017-11-26 17:52:33,175 - Thread with id 13 starts crawling /pt/terms/
+2017-11-26 17:52:33,178 - Thread with id 8 starts crawling /pt/integrations/
+2017-11-26 17:52:33,213 - Thread with id 7 starts crawling /pt/insights/
+2017-11-26 17:52:33,238 - Thread with id 17 starts crawling /pt/pricing/
+2017-11-26 17:52:33,261 - Thread with id 4 starts crawling /pt/privacy/
+2017-11-26 17:52:33,286 - Thread with id 2 starts crawling /pt/campaigns/
+2017-11-26 17:52:33,317 - Thread with id 3 starts crawling  https://toolwatch.io
+2017-11-26 17:52:33,384 - Thread with id 8 starts crawling /blog/tag/team/
+2017-11-26 17:52:33,410 - Thread with id 12 starts crawling /blog/scaling-crisp-to-the-next-100k-users/
+2017-11-26 17:52:33,432 - Thread with id 7 starts crawling /blog/how-to-make-customer-support-more-efficient/
+2017-11-26 17:52:33,453 - Thread with id 4 starts crawling /blog/10-growth-hacking-quotes-you-must-know-about-customer-support/
+2017-11-26 17:52:33,475 - Thread with id 13 starts crawling /blog/author/julien/
+2017-11-26 17:52:33,486 - Error - Thread with id 3 while crawling https://crisp.chat/ https:/toolwatch.io: HTTP Error 404: Not Found
+2017-11-26 17:52:33,490 - Thread with id 3 starts crawling /blog/why-customer-support-and-product-market-fit-are-linked/
+2017-11-26 17:52:33,520 - Thread with id 17 starts crawling /blog/5-reasons-use-live-chat-for-business-website/
+2017-11-26 17:52:33,533 - Thread with id 2 starts crawling /blog/tag/chatbox/
+2017-11-26 17:52:33,566 - Thread with id 14 starts crawling /blog/tag/feedback/
+2017-11-26 17:52:33,588 - Thread with id 5 starts crawling /blog/tag/web/
+2017-11-26 17:52:33,608 - Thread with id 11 starts crawling /blog/why-you-should-never-use-firebase-realtime-database/
+2017-11-26 17:52:33,689 - Thread with id 10 starts crawling /blog/how-we-internationalized-the-crisp-chatbox-at-scale/
+2017-11-26 17:52:33,786 - Thread with id 9 starts crawling /blog/tag/experience/
+2017-11-26 17:52:33,805 - Thread with id 6 starts crawling /blog/november-2016-chatbox-improvements/
+2017-11-26 17:52:33,826 - Thread with id 1 starts crawling /blog/page/3/
+2017-11-26 17:52:33,881 - Thread with id 16 starts crawling /blog/author/baptiste/page/2/
+2017-11-26 17:52:34,157 - Thread with id 12 starts crawling /apps/
+2017-11-26 17:52:34,230 - Thread with id 4 starts crawling julien@thefamily.co
+2017-11-26 17:52:34,334 - Thread with id 17 starts crawling /testimonials/
+2017-11-26 17:52:34,349 - Thread with id 19 starts crawling /chatbox/
+2017-11-26 17:52:34,350 - Thread with id 8 starts crawling /campaigns/
+2017-11-26 17:52:34,355 - Thread with id 14 starts crawling /pricing/
+2017-11-26 17:52:34,366 - Error - Thread with id 4 while crawling https://crisp.chat/julien@thefamily.co: HTTP Error 404: Not Found
+2017-11-26 17:52:34,632 - Thread with id 1 starts crawling /blog/page/4/
+2017-11-26 17:52:34,633 - Thread with id 13 starts crawling /blog/why-its-good-to-make-a-startup-when-you-are-a-student/
+2017-11-26 17:52:34,633 - Thread with id 2 starts crawling /blog/9-tips-to-improve-your-software-from-the-crisp-team/
+2017-11-26 17:52:34,633 - Thread with id 7 starts crawling /blog/tag/continuous-delivery/
+2017-11-26 17:52:34,633 - Thread with id 15 starts crawling /blog/tag/student/
+2017-11-26 17:52:34,633 - Thread with id 4 starts crawling /blog/tag/startup/
+2017-11-26 17:52:34,633 - Thread with id 11 starts crawling /blog/tag/saas/
+2017-11-26 17:52:34,633 - Thread with id 5 starts crawling /blog/tag/git/
+2017-11-26 17:52:34,845 - Thread with id 16 starts crawling /blog/tag/customer-service/
+2017-11-26 17:52:34,859 - Thread with id 12 starts crawling /blog/how-to-speak-to-your-users-the-right-way/
+2017-11-26 17:52:34,860 - Thread with id 6 starts crawling /blog/tag/customer-experience/
+2017-11-26 17:52:34,860 - Thread with id 9 starts crawling /blog/tag/entrepreneurship/
+2017-11-26 17:52:36,992 - Done crawling https://crisp.chat/ - 106 pages were parsed in 5.5243079662323
