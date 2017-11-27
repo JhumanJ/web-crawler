@@ -74,7 +74,7 @@ class CrawlerWorker(Thread):
            # Find remaining links to visit (again syncrhonised so that link aren't handled twice)
            with self.dataLock:
                # Save links and assets as a tuple
-               websiteIndex[currentLink] = (htmlParser.links,htmlParser.staticAssets)
+               websiteIndex[currentLink.path] = (htmlParser.links,htmlParser.staticAssets)
                linksNotVisitedYet = htmlParser.links.difference(linksVisited)
 
            # Add links to visit

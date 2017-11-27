@@ -7,7 +7,7 @@ Data shared between files
 """
 
 # Url to crawl
-DOMAIN = "https://docs.python.org"
+DOMAIN = "https://monzo.com/"
 
 # Size of pool thread
 THREADS_COUNT = 20
