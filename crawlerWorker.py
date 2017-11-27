@@ -40,7 +40,8 @@ class CrawlerWorker(Thread):
        while True:
 
            # Get the work from the queue and parse link
-           currentLink = urlparse(self.queue.get())
+           queueItem = self.queue.get()
+           currentLink = urlparse(queueItem)
 
            # Make sure link wasn't already visited and add it to the list of visited links
            with dataLock:
@@ -59,7 +60,6 @@ class CrawlerWorker(Thread):
                 # Whoops it wasn't a 200
                 logger.error("Error - Thread with id " + str(self.id) + " while crawling " + urllib.parse.urljoin(self.domain, currentLink.path) + ": " + str(e))
 
-
            # Create instance of HTML parser
            try:
                htmlParser = Parser(self.domain)
@@ -69,7 +69,6 @@ class CrawlerWorker(Thread):
                 logger.error("Error - Thread with id " + str(self.id) + " while crawling " + urllib.parse.urljoin(self.domain, currentLink.path))
                 self.queue.task_done()
                 continue
-
 
            # Find remaining links to visit (again syncrhonised so that link aren't handled twice)
            with self.dataLock:

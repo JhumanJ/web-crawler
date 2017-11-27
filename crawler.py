@@ -26,7 +26,7 @@ def main():
     # Create thread workers
     for x in range(THREADS_COUNT):
         worker = CrawlerWorker(linksQueue,x,dataLock, DOMAIN)
-        # Setting daemon to True will let the main thread exit even though the workers are blocking
+        # We allow main thread to exit program even though threads are blocking
         worker.daemon = True
         worker.start()
     linksQueue.put(DOMAIN)
@@ -57,7 +57,6 @@ def output_result(websiteIndex,fileName):
         for link in result[0]:
             file.write("\n|-----"+link)
         file.write("\n\n")
-
 
 if __name__== "__main__":
   main()
