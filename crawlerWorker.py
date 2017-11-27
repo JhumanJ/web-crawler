@@ -39,7 +39,7 @@ class CrawlerWorker(Thread):
 
        while True:
 
-           # Get the work from the queue and parse link
+           # Get the job(link) from the queue and parse link
            queueItem = self.queue.get()
            currentLink = urlparse(queueItem)
 
@@ -52,13 +52,14 @@ class CrawlerWorker(Thread):
 
            logger.info("Thread with id " + str(self.id) + " starts crawling " + currentLink.path)
 
-           # Query page - Add some headers to avoid bot detection of website such as Monzo.com ;)
+           # Query page - Add some headers so that websites such as Monzo.com aren't afraid and answer ;)
            try:
                 req = urllib.request.Request(urllib.parse.urljoin(self.domain, currentLink.path), headers={'User-Agent': 'Mozilla/5.0'})
                 webPage = urllib.request.urlopen( req )
            except urllib.error.HTTPError as e:
                 # Whoops it wasn't a 200
                 logger.error("Error - Thread with id " + str(self.id) + " while crawling " + urllib.parse.urljoin(self.domain, currentLink.path) + ": " + str(e))
+                self.queue.task_done()
 
            # Create instance of HTML parser
            try:
@@ -66,7 +67,7 @@ class CrawlerWorker(Thread):
                htmlParser.feed(str(webPage.read()))
                htmlParser.close()
            except UnboundLocalError:
-                logger.error("Error - Thread with id " + str(self.id) + " while crawling " + urllib.parse.urljoin(self.domain, currentLink.path))
+                logger.error("Error - Thread with id " + str(self.id) + " while parsing " + urllib.parse.urljoin(self.domain, currentLink.path))
                 self.queue.task_done()
                 continue
 
