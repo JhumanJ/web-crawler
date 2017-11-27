@@ -60,6 +60,7 @@ class CrawlerWorker(Thread):
                 # Whoops it wasn't a 200
                 logger.error("Error - Thread with id " + str(self.id) + " while crawling " + urllib.parse.urljoin(self.domain, currentLink.path) + ": " + str(e))
                 self.queue.task_done()
+                continue
 
            # Create instance of HTML parser
            try:
